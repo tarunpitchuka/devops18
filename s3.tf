@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "Tarun1210.flm-proj.moonobucket"
+  bucket = "tarun1210.flm-proj.moonobucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
