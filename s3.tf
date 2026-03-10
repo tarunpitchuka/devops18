@@ -23,12 +23,6 @@ status = "Enabled"
 }
 }
 
-terraform {
-backend "s3" {
-region = "ap-south-1"
-bucket = "Tarun1210.flm-proj.moonobucket"
-key = "prod/terraform.tfstate"
-}
-}
+
 
 
